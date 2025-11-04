@@ -10,7 +10,14 @@
    Trade Type: sell / bought,
    Quantity: Quantity of  stocks bought/sold,
    Price : Price at stock bought at.
+
+
+
+   
 2. Challenges:
+
+
+
    1.Date formats:
      After downloading tradebook and importing in csv, all values in date column should be
      in yyyy-mm-dd or dd-mm-yyyy format. Then convert it into datetime.
