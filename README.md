@@ -1,18 +1,15 @@
 # XIRR_PIPELINE
 1.DESCRIPTION:
 
-The notebook is used to calculate XIRR value of a input Tradebook for stocks listed in Indian Markets NSE and BSE.
-The input is Tradebook which is a csv file of the portfolio having following columns Symbol which is TICKER Symbol of the company,
-ISIN code which is used for listing the company in the market, Exchange i.e. market NSE/BSE,
-Segment: This indicates the market segment where the trade occurs. For example, common segments include the Cash Market (CM) for normal equity trading, or Future & Options (FO) for derivatives trading,
-Series:  For example, "BE" series on NSE stands for "Book Entry" and is used for Trade-to-Trade segment shares. Other series codes include "EQ" for normal equity shares and "BT" for block trades,
-Auctions are special processes initiated by exchanges to resolve settlement or delivery issues such as shortages or bad deliveries,
-Trade Type: sell / bought,
-Quantity: Quantity of  stocks bought/sold,
-Price : Price at stock bought at.
-
-
-
+   The notebook is used to calculate XIRR value of a input Tradebook for stocks listed in Indian Markets NSE and BSE.
+   The input is Tradebook which is a csv file of the portfolio having following columns Symbol which is TICKER Symbol of the company,
+   ISIN code which is used for listing the company in the market, Exchange i.e. market NSE/BSE,
+   Segment: This indicates the market segment where the trade occurs. For example, common segments include the Cash Market (CM) for normal equity trading, or Future & Options (FO) for derivatives trading,
+   Series:  For example, "BE" series on NSE stands for "Book Entry" and is used for Trade-to-Trade segment shares. Other series codes include "EQ" for normal equity shares and "BT" for block trades,
+   Auctions are special processes initiated by exchanges to resolve settlement or delivery issues such as shortages or bad deliveries,
+   Trade Type: sell / bought,
+   Quantity: Quantity of  stocks bought/sold,
+   Price : Price at stock bought at.
 2. Challenges:
    1.Date formats:
      After downloading tradebook and importing in csv, all values in date column should be
